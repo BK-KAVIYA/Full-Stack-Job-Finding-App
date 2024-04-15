@@ -1,0 +1,291 @@
+[
+    {
+      "id": 1,
+      "companyName": "IFS company",
+      "jobTitle": "Software Engineer",
+      "companyLogo": "/images/Linear.png",
+      "minPrice": "20",
+      "maxPrice": "30",
+      "salaryType": "Yearly",
+      "jobLocation": "Pannipitiya",
+      "postingDate": "2023-11-03",
+      "experienceLevel": "Any experience",
+      "employmentType": "Full-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 2,
+      "companyName": "Virtusa",
+      "jobTitle": "Web Developer",
+      "companyLogo": "/images/Notion.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Yearly",
+      "jobLocation": "Millennium City",
+      "postingDate": "2023-11-02",
+      "experienceLevel": "Internship",
+      "employmentType": "Temporary",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 3,
+      "companyName": "WSO2",
+      "jobTitle": "Data Scientist",
+      "companyLogo": "/images/Spline.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Monthly",
+      "jobLocation": "Gampaha",
+      "postingDate": "2023-10-28",
+      "experienceLevel": "Any experience",
+      "employmentType": "Full-time", 
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 4,
+      "companyName": "Sysco LABS",
+      "jobTitle": "UI/UX Designer",
+      "companyLogo": "/images/Raycast.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Monthly",
+      "jobLocation": "Colombo",
+      "postingDate": "2023-10-05",
+      "experienceLevel": "Work remotely",
+      "employmentType": "Part-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 5,
+      "companyName": "Cambio Software Engineering",
+      "jobTitle": "Frontend Developer",
+      "companyLogo": "/images/Loom.png",
+      "minPrice": "50",
+      "maxPrice": "75",
+      "salaryType": "Yearly",
+      "jobLocation": "Colombo",
+      "postingDate": "2023-10-28",
+      "experienceLevel": "Intership",
+      "employmentType": "Full-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 6,
+      "companyName": "Rootcode",
+      "jobTitle": "DevOps Engineer",
+      "companyLogo": "/images/Trainline.png",
+      "minPrice": "80",
+      "maxPrice": "120",
+      "salaryType": "Yearly",
+      "jobLocation": "Kaluthara",
+      "postingDate": "2023-10-05",
+      "experienceLevel": "Intership",
+      "employmentType": "Temporary",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 7,
+      "companyName": "IFS company",
+      "jobTitle": "Software Engineer",
+      "companyLogo": "/images/Linear.png",
+      "minPrice": "30",
+      "maxPrice": "80",
+      "salaryType": "Yearly",
+      "jobLocation": "Pannipitiya",
+      "postingDate": "2023-11-05",
+      "experienceLevel": "Any experience",
+      "employmentType": "Full-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 8,
+      "companyName": "Virtusa",
+      "jobTitle": "Web Developer",
+      "companyLogo": "/images/Notion.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Yearly",
+      "jobLocation": "Millennium City",
+      "postingDate": "2023-10-28",
+      "experienceLevel": "Internship",
+      "employmentType": "Temporary",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 9,
+      "companyName": "WSO2",
+      "jobTitle": "Data Scientist",
+      "companyLogo": "/images/Spline.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Yearly",
+      "jobLocation": "Gampaha",
+      "postingDate": "2023-10-28",
+      "experienceLevel": "Any experience",
+      "employmentType": "Full-time", 
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 10,
+      "companyName": "Sysco LABS",
+      "jobTitle": "UI/UX Designer",
+      "companyLogo": "/images/Raycast.png",
+      "minPrice": "40",
+      "maxPrice": "50",
+      "salaryType": "Monthly",
+      "jobLocation": "Colombo",
+      "postingDate": "2023-10-05",
+      "experienceLevel": "Work remotely",
+      "employmentType": "Part-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 11,
+      "companyName": "Cambio Software Engineering",
+      "jobTitle": "Frontend Developer",
+      "companyLogo": "/images/Loom.png",
+      "minPrice": "50",
+      "maxPrice": "75",
+      "salaryType": "Yearly",
+      "jobLocation": "Colombo",
+      "postingDate": "2023-10-28",
+      "experienceLevel": "Intership",
+      "employmentType": "Full-time",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    },
+    {
+      "id": 12,
+      "companyName": "Rootcode Labs",
+      "jobTitle": "DevOps Engineer",
+      "companyLogo": "/images/Trainline.png",
+      "minPrice": "80",
+      "maxPrice": "120",
+      "salaryType": "Yearly",
+      "jobLocation": "Kaluthara",
+      "postingDate": "2022-10-05",
+      "experienceLevel": "Intership",
+      "employmentType": "Temporary",
+      "detail" : [
+        {
+          "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  
+          "requirement":
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+      ],
+      "applicants": ["1", "2", "3", "4"],
+      "vacancies": 25,
+      "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
+    }
+  ]
+  

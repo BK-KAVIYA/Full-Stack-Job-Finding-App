@@ -1,0 +1,93 @@
+[
+    {
+      "_id": 1,
+      "name": "LankaSoft Technologies",
+      "location": "Colombo, Sri Lanka",
+      "email": "support@lankasofttech.com",
+      "contact": "+94112223344",
+      "about": "LankaSoft Technologies is a pioneer in software development in Sri Lanka, known for its innovative solutions in cloud computing and enterprise software.",
+      "profileUrl": "TwitterLankaSoft",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 2,
+      "name": "Innovate Sri Lanka",
+      "location": "Kandy, Sri Lanka",
+      "email": "support@innovatesl.com",
+      "contact": "+94112223355",
+      "about": "Innovate Sri Lanka provides cutting-edge technology solutions with a focus on AI and machine learning for local and international clients.",
+      "profileUrl": "GoogleInnovateSL",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 3,
+      "name": "CeylonTech Solutions",
+      "location": "Galle, Sri Lanka",
+      "email": "support@ceylontech.com",
+      "contact": "+94112223366",
+      "about": "CeylonTech Solutions is renowned for its robust telecom solutions and services that cater to the Asian market.",
+      "profileUrl": "LinkedinCeylonTech",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 4,
+      "name": "Colombo IT Ventures",
+      "location": "Colombo, Sri Lanka",
+      "email": "support@colomboitv.com",
+      "contact": "+94112223377",
+      "about": "Colombo IT Ventures specializes in digital transformation and IT consulting services to propel businesses into the digital age.",
+      "profileUrl": "SpotifyColomboIT",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 5,
+      "name": "SocialMedia Pros",
+      "location": "Matara, Sri Lanka",
+      "email": "support@socialmediapros.lk",
+      "contact": "+94112223388",
+      "about": "SocialMedia Pros offers tailored digital marketing and social media strategies to enhance online presence and engagement.",
+      "profileUrl": "FacebookSocialMediaPros",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 6,
+      "name": "Lanka Messaging Solutions",
+      "location": "Jaffna, Sri Lanka",
+      "email": "support@lankamessaging.com",
+      "contact": "+94112223399",
+      "about": "Lanka Messaging Solutions provides innovative messaging and communication solutions for the Sri Lankan market.",
+      "profileUrl": "WhatsAppLankaMsg",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 7,
+      "name": "Island Media Works",
+      "location": "Negombo, Sri Lanka",
+      "email": "support@islandmediaworks.lk",
+      "contact": "+94112223400",
+      "about": "Island Media Works specializes in media production and advertising, offering comprehensive services from production to placement.",
+      "profileUrl": "InstagramIslandMedia",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 8,
+      "name": "Video Solutions Lanka",
+      "location": "Kurunegala, Sri Lanka",
+      "email": "support@videosolutionslanka.lk",
+      "contact": "+94112223411",
+      "about": "Video Solutions Lanka is a leader in video production and editing services, providing high-quality content for the entertainment and corporate sectors.",
+      "profileUrl": "YoutubeVideoSolLanka",
+      "jobPosts": ["1", "2"]
+    },
+    {
+      "_id": 9,
+      "name": "Lanka CodeCraft",
+      "location": "Anuradhapura, Sri Lanka",
+      "email": "support@lankacodecraft.lk",
+      "contact": "+94112223422",
+      "about": "Lanka CodeCraft is a software development company that delivers bespoke solutions for global and local markets, specializing in web and mobile applications.",
+      "profileUrl": "CodeWaveLanka",
+      "jobPosts": ["1", "2"]
+    }
+  ]
+  

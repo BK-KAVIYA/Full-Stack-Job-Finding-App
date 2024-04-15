@@ -1,0 +1,16 @@
+.nav-bar-logo {
+    width: 70px;
+    height: auto;
+    margin-left: 5px;
+    /* Add any other styles you need */
+  }
+
+  .hover-effect:hover {
+    /* Define your hover effect styles here */
+    /* For example, changing the background color */
+    color: rgb(80, 150, 255);
+}
+
+
+
+  
