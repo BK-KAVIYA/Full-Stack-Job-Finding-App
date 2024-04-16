@@ -1,14 +1,14 @@
 [
     {
         "_id": "1",
-        "company": {
+        "company":[  {
             "name": "LankaSoft Solutions",
             "location": "Colombo, Sri Lanka",
             "email": "info@lankasoftsolutions.com",
             "contact": "+94112345678",
             "about": "LankaSoft Solutions is a leading software development company in Sri Lanka, specializing in enterprise software solutions, mobile applications, and cloud services.",
             "profileUrl": "https://twitter.com/LankaSoftSolutions"
-        },
+        } ],
         "jobTitle": "Software Engineer",
         "location": "Colombo",
         "jobType": "Full-Time",
@@ -25,14 +25,14 @@
     },
     {
         "_id": "2",
-        "company": {
+        "company": [{
             "name": "Innovate Lanka",
             "location": "Kandy, Sri Lanka",
             "email": "contact@innovatelanka.com",
             "contact": "+94118765432",
             "about": "Innovate Lanka is an innovative technology company focused on creating cutting-edge solutions for global markets, with an emphasis on AI and machine learning technologies.",
             "profileUrl": "https://twitter.com/InnovateLanka"
-        },
+        }],
         "jobTitle": "AI Specialist",
         "location": "Kandy",
         "jobType": "Part-Time",
@@ -49,14 +49,14 @@
     },
     {
         "_id": "3",
-        "company": {
+        "company": [{
             "name": "TechWave Systems",
             "location": "Galle, Sri Lanka",
             "email": "support@techwavesystems.com",
             "contact": "+94113456789",
             "about": "TechWave Systems is renowned for its robust telecom solutions and services that cater to the Asian market.",
             "profileUrl": "https://twitter.com/TechWaveSystems"
-        },
+        }],
         "jobTitle": "Network Engineer",
         "location": "Galle",
         "jobType": "Full-Time",
@@ -73,14 +73,14 @@
     },
     {
         "_id": "4",
-        "company": {
+        "company": [{
             "name": "CodeCraft Technologies",
             "location": "Colombo, Sri Lanka",
             "email": "hr@codecrafttech.com",
             "contact": "+94112348976",
             "about": "CodeCraft Technologies pioneers in the software industry, specializing in customized software solutions for international clients.",
             "profileUrl": "https://twitter.com/CodeCraftTech"
-        },
+        }],
         "jobTitle": "UI/UX Designer",
         "location": "Colombo",
         "jobType": "Contract",
@@ -97,14 +97,14 @@
     },
     {
         "_id": "5",
-        "company": {
+        "company": [{
             "name": "InnoTech Solutions",
             "location": "Jaffna, Sri Lanka",
             "email": "contact@innotechsl.com",
             "contact": "+94112765432",
             "about": "InnoTech Solutions is focused on developing high-tech solutions for the agriculture and education sectors in Sri Lanka.",
             "profileUrl": "https://twitter.com/InnoTechSL"
-        },
+        }],
         "jobTitle": "Project Manager",
         "location": "Jaffna",
         "jobType": "Full-Time",
@@ -121,14 +121,14 @@
     },
     {
         "_id": "6",
-        "company": {
+        "company": [{
             "name": "MobileDev Solutions",
             "location": "Negombo, Sri Lanka",
             "email": "info@mobiledevsolutions.com",
             "contact": "+94112223344",
             "about": "MobileDev Solutions specializes in mobile application development, particularly for Android and iOS platforms, catering to both local and international clients.",
             "profileUrl": "https://twitter.com/MobileDevSol"
-        },
+        }],
         "jobTitle": "Mobile Developer",
         "location": "Negombo",
         "jobType": "Full-Time",
@@ -145,14 +145,14 @@
     },
     {
         "_id": "7",
-        "company": {
+        "company": [{
             "name": "WebTech Global",
             "location": "Matara, Sri Lanka",
             "email": "careers@webtechglobal.com",
             "contact": "+94112456789",
             "about": "WebTech Global offers comprehensive web solutions including web development, e-commerce, and SEO services to clients around the world.",
             "profileUrl": "https://twitter.com/WebTechGlobal"
-        },
+        }],
         "jobTitle": "SEO Specialist",
         "location": "Matara",
         "jobType": "Part-Time",
@@ -169,14 +169,14 @@
     },
     {
         "_id": "8",
-        "company": {
+        "company": [{
             "name": "DataTech Analytics",
             "location": "Anuradhapura, Sri Lanka",
             "email": "hr@datatechanalytics.com",
             "contact": "+94112345632",
             "about": "DataTech Analytics is at the forefront of data science and analytics in Sri Lanka, helping businesses harness the power of big data.",
             "profileUrl": "https://twitter.com/DataTechAnalytics"
-        },
+        }],
         "jobTitle": "Data Scientist",
         "location": "Anuradhapura",
         "jobType": "Full-Time",
@@ -193,14 +193,14 @@
     },
     {
         "_id": "9",
-        "company": {
+        "company": [{
             "name": "CloudServ Technologies",
             "location": "Kurunegala, Sri Lanka",
             "email": "support@cloudservtech.com",
             "contact": "+94112398765",
             "about": "CloudServ Technologies specializes in providing cloud storage and cloud computing services to businesses across Sri Lanka.",
             "profileUrl": "https://twitter.com/CloudServTech"
-        },
+        }],
         "jobTitle": "Cloud Solutions Architect",
         "location": "Kurunegala",
         "jobType": "Full-Time",
@@ -217,14 +217,14 @@
     },
     {
         "_id": "10",
-        "company": {
+        "company": [{
             "name": "Digital Arts Creative",
             "location": "Batticaloa, Sri Lanka",
             "email": "info@digitalartscreative.com",
             "contact": "+94112233455",
             "about": "Digital Arts Creative is a leading creative agency in Sri Lanka, offering innovative design and marketing solutions to a wide array of clients.",
             "profileUrl": "https://twitter.com/DigitalArtsCreative"
-        },
+        }],
         "jobTitle": "Graphic Designer",
         "location": "Batticaloa",
         "jobType": "Freelance",
