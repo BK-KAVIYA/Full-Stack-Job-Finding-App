@@ -16,10 +16,17 @@ export const Home = () => {
 
   useEffect(() => {
     setIsloading(true);
-    fetch("jobs.json")
+    fetch("http://localhost:8800/api-v1/jobs/find-jobs")
       .then((res) => res.json())
       .then((data) => {
-        setJobs(data);
+        // Assuming `data` contains the entire response object
+        const { data: jobsData } = data; // Extracting the 'data' property from the response
+        setJobs(jobsData); // Setting 'jobsData' to state
+        setIsloading(false);
+      })
+      .catch((error) => {
+        // Handle errors here
+        console.error("Error fetching jobs:", error);
         setIsloading(false);
       });
   }, []);
@@ -144,7 +151,9 @@ export const Home = () => {
             " "
           )}
         </div>
-        <div className="bg-white p-4 rounded"><Newslatter/></div>
+        <div className="bg-white p-4 rounded">
+          <Newslatter />
+        </div>
       </div>
     </div>
   );
