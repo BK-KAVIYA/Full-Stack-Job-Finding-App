@@ -9,7 +9,8 @@ import  JobCard  from "../components/JobPost/JobCard";
 
 const JobDetail = () => {
   const params = useParams();
-  const id = parseInt(params.id) - 1;
+  const id = parseInt(params.id);
+  console.log(id);
   const [job, setJob] = useState(jobs[0]);
   const [selected, setSelected] = useState("0");
 
