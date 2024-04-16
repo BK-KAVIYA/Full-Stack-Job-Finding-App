@@ -2,11 +2,11 @@ import mongoose, { Schema } from "mongoose";
 
 const jobSchema = new mongoose.Schema(
   {
-    company: [{ name: { type: String }, location: { type: String },email: { type: String }, contact: { type: String }, about: { type: String }}],
+    company: [{ name: { type: String }, location: { type: String },email: { type: String }, contact: { type: String }, about: { type: String },profileUrl: { type: String }}],
     jobTitle: { type: String, required: [true, "Job Title is required"] },
     jobType: { type: String, required: [true, "Job Type is required"] },
     location: { type: String, required: [true, "Location is required"] },
-    salary: { type: Number, required: [true, "Salary is required"] },
+    salary: { type: String, required: [true, "Salary is required"] },
     vacancies: { type: Number },
     experience: { type: Number, default: 0 },
     detail: [{ desc: { type: String }, requirements: { type: String } }],

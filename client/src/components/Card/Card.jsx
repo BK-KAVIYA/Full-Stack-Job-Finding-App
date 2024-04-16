@@ -5,7 +5,7 @@ import {FiCalendar, FiClock, FiDollarSign, FiMapPin} from 'react-icons/fi'
 
 function Card({data}) {
     console.log(data)
-    const{ id,company: [{ name: companyName }],jobTitle,companyLogo,minPrice,maxPrice,salaryType,company: [{ location: jobLocation }],employmentType,postingDate,description }=data
+    const{ id,company: [{ name: companyName }],jobTitle,company: [{ profileUrl: companyLogo }],salary,salaryType,company: [{ location: jobLocation }],jobType,createdAt,detail: [{ desc: Description }] }=data
   return (
         <section className='card'>
             <Link to={`/job-detail/${id}`} className='flex gap-4 flex-col sm:flex-row items-start'>
@@ -15,11 +15,11 @@ function Card({data}) {
                     <h3 className='text-lg font-semibold mb-2'>{jobTitle}</h3>
                     <div className='text-primary/70 text-base flex flex-wrap gap-2 mb-2'>
                         <span className='flex items-center gap-2'><FiMapPin/>{jobLocation}</span>
-                        <span className='flex items-center gap-2'><FiClock/>{employmentType}</span>
-                        <span className='flex items-center gap-2'><FiDollarSign/>{minPrice}-{maxPrice}</span>
-                        <span className='flex items-center gap-2'><FiCalendar/>{postingDate}</span>
+                        <span className='flex items-center gap-2'><FiClock/>{jobType}</span>
+                        <span className='flex items-center gap-2'><FiDollarSign/>{salary}</span>
+                        <span className='flex items-center gap-2'><FiCalendar/>{createdAt}</span>
                     </div>
-                    <p className='text-base text-primary/70'>{description}</p>
+                    <p className='text-base text-primary/70'>{Description}</p>
                 </div>
             </Link>
         </section>
