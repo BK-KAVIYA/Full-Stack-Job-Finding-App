@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Banner from "../components/Banner/Banner";
-import Card from "../components/Card/card";
+import Card from "../components/Card/Card";
 import Jobs from "./Jobs";
 import Sidebar from "../SideBar/Sidebar";
 import Newslatter from "../components/NewsLatter/Newslatter";
@@ -16,7 +16,7 @@ export const Home = () => {
 
   useEffect(() => {
     setIsloading(true);
-    fetch("http://localhost:8800/api-v1/jobs/find-jobs")
+    fetch("/poxy/jobs/find-jobs")
       .then((res) => res.json())
       .then((data) => {
         // Assuming `data` contains the entire response object
