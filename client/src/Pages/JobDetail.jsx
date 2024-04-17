@@ -6,35 +6,37 @@ import { useParams } from "react-router-dom";
 import jobs from "../../public/jobs.json";
 import CustomButton from "../components/JobPost/CustomButton";
 import JobCard from "../components/JobPost/JobCard";
+import Card from "../components/Card/Card";
 
 const JobDetail = () => {
   const params = useParams();
   const id = parseInt(params.id);
   const [job, setJob] = useState(null);
+  const [similarjob, setSimilarJob] = useState(null);
   const [selected, setSelected] = useState("0");
 
   useEffect(() => {
     const fetchJob = async () => {
       try {
-        const response = await fetch(
-          `http://localhost:8800/api-v1/jobs/get-job-detail/${id}`
-        );
+        const response = await fetch(`/poxy/jobs/get-job-detail/${id}`);
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const data = await response.json();
         setJob(data.data); // Assuming the job data is nested under 'data' key
+        setSimilarJob(data.similarJobs); // This is the array of similar jobs
+        console.log(similarJobs);
       } catch (error) {
         console.error("Error fetching job:", error);
       }
     };
 
     fetchJob();
-  },[id]);
+  }, [id]);
 
   return (
     <div className="container mx-auto mt-0 text-gray-700">
-      <h1 className="text-3xl font-semibold py-5" >Job Details</h1>
+      <h1 className="text-3xl font-semibold py-5">Job Details</h1>
       <div className="w-full flex flex-col md:flex-row gap-10">
         {/* LEFT SIDE */}
         <div className="w-full h-fit md:w-2/3 2xl:2/4 bg-purple-200 px-5 py-10 md:px-10 shadow-md">
@@ -167,12 +169,11 @@ const JobDetail = () => {
 
         {/* RIGHT SIDE */}
         <div className="w-full md:w-1/3 2xl:w-2/4 p-5 mt-20 md:mt-0">
-          <p className="text-gray-500 font-semibold">Similar Job Post</p>
+          <p className="text-gray-500 font-semibold">Similar Job Posts</p>
 
           <div className="w-full flex flex-wrap gap-4">
-            {jobs?.slice(0, 4).map((job, index) => (
-              <JobCard job={job} key={index} />
-            ))}
+            {similarjob &&
+              similarjob.map((job, index) => <Card data={job} key={index} />)}
           </div>
         </div>
       </div>

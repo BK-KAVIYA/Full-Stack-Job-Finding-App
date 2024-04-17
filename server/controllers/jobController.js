@@ -216,27 +216,27 @@ export const getJobById = async (req, res, next) => {
     }
 
     //GET SIMILAR JOB POST
-    // const searchQuery = {
-    //   $or: [
-    //     { jobTitle: { $regex: job?.jobTitle, $options: "i" } },
-    //     { jobType: { $regex: job?.jobType, $options: "i" } },
-    //   ],
-    // };
+    const searchQuery = {
+      $or: [
+        { jobTitle: { $regex: job?.jobTitle, $options: "i" } },
+        { jobType: { $regex: job?.jobType, $options: "i" } },
+      ],
+    };
 
-    // let queryResult = Jobs.find(searchQuery)
-    //   .populate({
-    //     path: "company",
-    //     select: "-password",
-    //   })
-    //   .sort({ _id: -1 });
+    let queryResult = Jobs.find(searchQuery)
+      .populate({
+        path: "company",
+        select: "-password",
+      })
+      .sort({ _id: -1 });
 
-    // queryResult = queryResult.limit(6);
-    // const similarJobs = await queryResult;
+    queryResult = queryResult.limit(3);
+    const similarJobs = await queryResult;
 
     res.status(200).json({
-      // success: true,
+      success: true,
       data: job,
-      // similarJobs,
+      similarJobs,
     });
   } catch (error) {
     console.log(error);
