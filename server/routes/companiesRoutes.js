@@ -22,10 +22,10 @@ const limiter = rateLimit({
 });
 
 // REGISTER
-router.post("/register", limiter, register);
+//router.post("/register", limiter, register);
 
 // LOGIN
-router.post("/login", limiter, signIn);
+//router.post("/login", limiter, signIn);
 
 // GET DATA
 router.post("/get-company-profile", userAuth, getCompanyProfile);

@@ -60,12 +60,13 @@ export const signIn = async (req, res, next) => {
   try {
     //validation
     if (!email || !password) {
-      next("Please Provide AUser Credentials");
+      next("Please Provide a User Credentials");
       return;
     }
 
     // find user by email
-    const user = await Users.findOne({ email }).select("+password");
+    const user = await Users.findOne({ email }).select("password");
+    console.log(user);
 
     if (!user) {
       next("Invalid -email or password");
