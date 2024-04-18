@@ -164,7 +164,7 @@ export const getCompanyProfile = async (req, res, next) => {
 export const getCompanies = async (req, res, next) => {
   try {
     const { search, sort, location } = req.query;
-
+  
     //conditons for searching filters
     const queryObject = {};
 

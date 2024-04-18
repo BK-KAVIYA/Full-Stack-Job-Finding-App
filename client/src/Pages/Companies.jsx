@@ -18,7 +18,7 @@ const Companies = () => {
 
   useEffect(() => {
     setIsFetching(true);
-    fetch("/poxy/companies")
+    fetch(`/poxy/companies?search=&sort=${sort}&location=`)
       .then((res) => res.json())
       .then((data) => {
         // Assuming `data` contains the entire response object
@@ -31,7 +31,7 @@ const Companies = () => {
         console.error("Error fetching companie:", error);
         setIsFetching(false);
       });
-  }, []);
+  }, [sort]);
 
   const location = useLocation();
   const navigate = useNavigate();
@@ -41,10 +41,15 @@ const Companies = () => {
 
   return (
     <div className='w-full'>
-      <div className='container mx-auto flex flex-col gap-5 2xl:gap-10 px-5 md:px-0 py-6 bg-[#f7fdfd]'>
+      <div className='container mx-auto flex flex-col 2xl:gap-10 px-5 md:px-0 py-6 bg-[#f7fdfd]'>
+        <div className="">
+          <p className="text-2xl md:text-3xl font-semibold text-gray-800 ml-10">
+            Companies Details 
+            </p>
+        </div>
         <div className='flex items-center justify-between mb-4'>
-          <p className='text-sm md:text-base'>
-            Shwoing: <span className='font-semibold'>1,902</span> Companies
+          <p className='text-sm md:text-base ml-10'>
+            Shwoing: <span className='font-semibold'>{data && data.length}</span> Companies
             Available
           </p>
 
