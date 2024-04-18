@@ -10,11 +10,28 @@ const Companies = () => {
   const [page, setPage] = useState(1);
   const [numPage, setNumPage] = useState(1);
   const [recordsCount, setRecordsCount] = useState(0);
-  const [data, setData] = useState(companies ?? []);
+  const [data, setData] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [cmpLocation, setCmpLocation] = useState("");
   const [sort, setSort] = useState("Newest");
   const [isFetching, setIsFetching] = useState(false);
+
+  useEffect(() => {
+    setIsFetching(true);
+    fetch("/poxy/companies")
+      .then((res) => res.json())
+      .then((data) => {
+        // Assuming `data` contains the entire response object
+        const { data: companiesData } = data; // Extracting the 'data' property from the response
+        setData(companiesData); // Setting 'companieData' to state
+        setIsFetching(false);
+      })
+      .catch((error) => {
+        // Handle errors here
+        console.error("Error fetching companie:", error);
+        setIsFetching(false);
+      });
+  }, []);
 
   const location = useLocation();
   const navigate = useNavigate();

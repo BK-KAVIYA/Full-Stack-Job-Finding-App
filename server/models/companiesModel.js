@@ -24,7 +24,7 @@ const companySchema = new Schema({
   location: { type: String },
   about: { type: String },
   profileUrl: { type: String },
-  jobPosts: [{ type: Schema.Types.ObjectId, ref: "Jobs" }],
+  jobPosts: [{ 0: { type: String }, 1: { type: String } }],
 });
 
 // middelwares
