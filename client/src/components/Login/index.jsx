@@ -16,7 +16,7 @@ const Login = () => {
     try {
       const url = "/poxy/auth/login";
       const { data: res } = await axios.post(url, data);
-      localStorage.setItem("token", res.data);
+      localStorage.setItem("token", res.token);
       window.location = "/";
     } catch (error) {
       if (
