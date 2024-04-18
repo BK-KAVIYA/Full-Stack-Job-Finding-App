@@ -1,0 +1,26 @@
+[{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "johndoe@example.com",
+    "password": "password123",
+    "accountType": "seeker",
+    "contact": "1234567890",
+    "location": "New York",
+    "profileUrl": "https://example.com/johndoe",
+    "cvUrl": "https://example.com/johndoe/cv",
+    "jobTitle": "Software Engineer",
+    "about": "Passionate about developing innovative software solutions."
+  },
+  {
+    "success": true,
+    "message": "Account created successfully",
+    "user": {
+        "_id": "66214819be0b64d9834f56a0",
+        "firstName": "Baladurage",
+        "lastName": "Kavinda",
+        "email": "dilshankavinda371@gmail.com",
+        "accountType": "seeker"
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjIxNDgxOWJlMGI2NGQ5ODM0ZjU2YTAiLCJpYXQiOjE3MTM0NTcxNzcsImV4cCI6MTcxMzU0MzU3N30.TQpFVax5xH6J-Jo3T8BdGYN_e7yitSATR3D7-YcYHLY"
+}]
+  
