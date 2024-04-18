@@ -31,6 +31,8 @@ export const Home = () => {
       });
   }, []);
 
+  
+
   const [query, setQuery] = useState("");
   const handleInputChange = (e) => {
     setQuery(e.target.value);
@@ -102,7 +104,7 @@ export const Home = () => {
   };
 
   const result = filterData(jobs, selectCategory, query);
-  console.log(result);
+
   return (
     <div>
       <Hero />

@@ -1,13 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import   JobTypes  from "../components/JobPost/JobTypes";
-import  jobs  from "../../public/jobs.json";
 import TextInput from "../components/JobPost/TextInput";
 import JobCard from "../components/JobPost/JobCard";
 import CustomButton from "../components/JobPost/CustomButton";
 
 
 function PostJob() {
+
+  const [jobs, setJobs] = useState([]);
+
+  useEffect(() => {
+    fetch("/poxy/jobs/find-jobs")
+      .then((res) => res.json())
+      .then((data) => {
+        // Assuming `data` contains the entire response object
+        const { data: jobsData } = data; // Extracting the 'data' property from the response
+        setJobs(jobsData); // Setting 'jobsData' to state
+
+      })
+      .catch((error) => {
+        // Handle errors here
+        console.error("Error fetching jobs:", error);
+      });
+  }, []);
+
 
   const {
     register,
@@ -29,7 +46,7 @@ const onSubmit = async (data) => {};
     <div className='container mx-auto flex flex-col md:flex-row gap-8 2xl:gap-14 bg-[#f7fdfd] px-5 mt-10'>
       <div className='w-full h-fit md:w-2/3 2xl:2/4 bg-white px-5 py-10 md:px-10 shadow-md'>
         <div>
-          <p className='text-gray-500 font-semibold text-2xl'>Job Post</p>
+          <p className='text-gray-500 font-semibold text-2xl'>Post Your Job Hear</p>
 
           <form
             className='w-full mt-2 flex flex-col gap-8'
