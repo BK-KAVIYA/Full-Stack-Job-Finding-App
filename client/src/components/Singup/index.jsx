@@ -15,12 +15,13 @@ const Signup = () => {
 
   const handleChange = ({ currentTarget: input }) => {
     setData({ ...data, [input.name]: input.value });
+    console.log(data);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8080/api/users";
+      const url = "/poxy/auth/register";
       const { data: res } = await axios.post(url, data);
       navigate("/login");
       console.log(res.message);
