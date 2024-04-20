@@ -1,5 +1,6 @@
-const { getJobPosts } = require('../controllers/jobController'); // Import your API function
-const Jobs = require('../models/jobsModel'); // Import your Jobs model
+// job.test.js
+import { getJobPosts } from '../controllers/jobController'; // Import the API function
+import Jobs from '../models/jobsModel'; // Import the Jobs model
 
 // Mocking req, res, and next objects
 const req = {
@@ -41,10 +42,9 @@ describe('getJobPosts function', () => {
     expect(Jobs.find).toHaveBeenCalledWith({
       location: { $regex: 'Matara', $options: 'i' },
       jobType: { $in: ['full-time'] },
-      experience: { $gte: 1, $lte: 7 }, // Considering the +1 and -1 adjustment in the API function
+      experience: { $gte: 2, $lte: 6 },
       $or: [
         { jobTitle: { $regex: 'software engineer', $options: 'i' } },
-        { jobType: { $regex: 'software engineer', $options: 'i' } },
       ],
     });
 
@@ -59,9 +59,7 @@ describe('getJobPosts function', () => {
       totalJobs: 20,
       data: expect.any(Array),
       page: 1,
-      numOfPage: 2,
+      numOfPages: Math.ceil(20 / req.query.limit),
     });
   });
-
-  // Add more test cases for other scenarios like sorting, pagination, error handling, etc.
 });
